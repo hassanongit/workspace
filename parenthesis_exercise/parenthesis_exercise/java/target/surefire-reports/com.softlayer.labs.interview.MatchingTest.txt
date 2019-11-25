@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.softlayer.labs.interview.MatchingTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+test_invalid_selection_simple(com.softlayer.labs.interview.MatchingTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at com.softlayer.labs.interview.MatchingTest.test_invalid_selection_simple(MatchingTest.java:20)
+test_invalid_selection_complex(com.softlayer.labs.interview.MatchingTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at com.softlayer.labs.interview.MatchingTest.test_invalid_selection_complex(MatchingTest.java:35)
+test_invalid_selection_complex_extra(com.softlayer.labs.interview.MatchingTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at com.softlayer.labs.interview.MatchingTest.test_invalid_selection_complex_extra(MatchingTest.java:51)
+test_invalid_selection_complex_extra_extra(com.softlayer.labs.interview.MatchingTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at com.softlayer.labs.interview.MatchingTest.test_invalid_selection_complex_extra_extra(MatchingTest.java:59)
